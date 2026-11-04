@@ -1,0 +1,7 @@
+# SLX ReelSync — Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+# SPDX-License-Identifier: LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0
+BasedOnStyle: LLVM
+IndentWidth: 2
+ColumnLimit: 100
+SortIncludes: CaseSensitive
+AllowShortFunctionsOnASingleLine: Empty

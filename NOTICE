@@ -1,0 +1,14 @@
+SPDX-License-Identifier: LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0
+SLX ReelSync / SiliconLogiX
+Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+www.siliconlogix.it
+
+Original ReelSync implementation, host and documentation. OpenGL renderer and
+entry-point loader adapted from the same author's SLX SolarPilot renderer;
+palette follows SLX CellProof. No other product core is incorporated.
+Original supplied runtime scene is preserved byte for byte. Logo remains on
+the front nameplate. Asset authoring notice and DejaVu notice are retained in
+licenses/. SDK/core are proprietary; third-party components remain distinct.
+
+Proprietary technical evaluation distribution, unsigned. Terms are in LICENSE,
+SDK_LICENSE and ASSET_LICENSE. No machine certification claimed.

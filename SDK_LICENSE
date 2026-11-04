@@ -1,0 +1,32 @@
+SILICONLOGIX REELSYNC SDK / CORE EVALUATION TERMS 1.0
+SPDX-License-Identifier: LicenseRef-SLX-ReelSync-SDK-Evaluation-1.0
+Copyright (c) 2026 Marco Pezzullo (Silicon LogiX). All rights reserved.
+
+The proprietary SDK consists of integration headers, ABI/data documentation,
+import libraries, metadata and authorized SLX ReelSync core evaluation binaries.
+The private model and reference-controller source are not distributed.
+
+Individuals, companies and organizations may use the authorized offline binaries
+with SLX ReelSync for internal technical evaluation, compile the permitted C/C++
+examples, privately modify those examples and compare results through the SDK.
+The core enforces its fixed demonstration capabilities. The evaluation profile
+does not require an account, network, manual activation or telemetry.
+
+No right is granted to sell, integrate the SDK/core into third-party products or
+services, sublicense, extract/reuse the SDK beyond the authorized evaluation,
+redistribute or rebrand it without prior written permission. Preserve origin
+notices. Mandatory rights under applicable law are unaffected. Third-party
+library rights remain governed exclusively by their own licenses.
+
+For SDK files published by the rights holder in a public GitHub repository,
+these restrictions do not override the hosting, viewing and repository-forking
+rights granted under GitHub's applicable Terms of Service. This platform
+permission does not authorize standalone commercial exploitation of the SDK.
+
+No claim is made that a binary cannot be inspected or reused by an adversary.
+This build is unsigned and uses a fixed offline evaluation document, not a
+cryptographically signed entitlement. No private signing key is distributed.
+The core is supplied AS IS to the extent permitted by law, without physical
+accuracy, production, real-time or machine-safety warranties.
+
+Edition 1.0, applicable to the SDK/core supplied with SLX ReelSync 1.5.0.

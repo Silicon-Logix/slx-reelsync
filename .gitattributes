@@ -1,0 +1,15 @@
+# SLX ReelSync — Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+# SPDX-License-Identifier: LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0
+* text=auto eol=lf
+evaluation.license -text
+*.glb binary
+*.png binary
+*.ico binary
+*.dll binary
+*.exe binary
+*.a binary
+*.cmd text eol=crlf
+
+# Preserve upstream files byte for byte.
+third_party/** -text
+licenses/** -text

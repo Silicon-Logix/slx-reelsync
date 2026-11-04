@@ -1,0 +1,359 @@
+{
+  "product": "SLX ReelSync",
+  "version": "1.5.0",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "core_tests_passed": true,
+  "scenarios": 73,
+  "exact_csv_replays": 75,
+  "original_asset_files_verified": 78,
+  "graphics": {
+    "attention_draws": 37,
+    "camera": {
+      "center": [
+        4.300000190734863,
+        0.9300355911254883,
+        -0.2895500361919403
+      ],
+      "hfov": 1.0199999809265137,
+      "pitch": 0.3100000023841858,
+      "radius": 9.167603492736816,
+      "yaw": 0.5199999809265137
+    },
+    "cpu_submit_ms": 1.5097,
+    "draws": 369,
+    "far_plane_m": 60.0,
+    "gl_renderer": "NVIDIA GeForce RTX 3060/PCIe/SSE2",
+    "gl_vendor": "NVIDIA Corporation",
+    "instrument_force_n": 66.11058616500843,
+    "instrument_source_time_s": 13.0,
+    "instrument_updates": 17,
+    "inward_joint_faces": 64,
+    "live_force_gauge": true,
+    "live_hmi": true,
+    "live_path_vertices": 690,
+    "load_ms": 67.3626,
+    "models": 1,
+    "morph_draws": 5,
+    "near_plane_m": 0.11459504812955856,
+    "rail_repaired_vertices": 3161,
+    "shadow_draws": 270,
+    "shadow_map_size": 2048,
+    "solid_support_draws": 29,
+    "support_rail_clearance_m": 0.002,
+    "support_winding_errors": 0,
+    "triangles": 160283
+  },
+  "performance": {
+    "cpu": "Intel(R) Core(TM) i7-14700KF",
+    "configuration": "Windows x64 Release LLVM-MinGW; default recipe; setpoint scenario; no renderer in CLI run",
+    "headless_setpoint_60s": {
+      "elapsed_wall_s": 0.9737291000783443,
+      "observed_peak_working_set_bytes": 7761920,
+      "memory_observations": 178,
+      "poll_interval_s": 0.005,
+      "measurement": "Windows process peak working set counters sampled while process was active"
+    },
+    "graphics_smoke": {
+      "elapsed_wall_s": 4.012821800075471,
+      "observed_peak_working_set_bytes": 169988096,
+      "memory_observations": 626,
+      "poll_interval_s": 0.005,
+      "measurement": "Windows process peak working set counters sampled while process was active"
+    },
+    "graphics_conditions": "Hidden 1600x1000 window; 18 UI frames plus material-marker, support and live-instrument captures including PNG readback; RTX 3060; About, shadows, camera, DPI roundtrip and live/presentation; these timings are not sustained FPS or input latency."
+  },
+  "limitations": [
+    "Local Windows x64 only",
+    "No real-line calibration",
+    "No sustained graphics benchmark or real hardware test",
+    "Licensing drafts pending owner review",
+    "Graphics smoke uses hidden window and snapshots, not manual usability qualification"
+  ],
+  "operator_tools": [
+    {
+      "name": "length",
+      "final_state": "Fermo",
+      "sim_s": 17.5,
+      "operator_tools": {
+        "analysis_trigger_alarms": 0,
+        "final_length_error_m": -0.0006378887413376333,
+        "length_target_m": 25.0,
+        "pause_on_alarm": false
+      },
+      "replay_csv_sha256_equal": true
+    },
+    {
+      "name": "alarm-pause",
+      "final_state": "Pausa analisi",
+      "sim_s": 20.1045,
+      "operator_tools": {
+        "analysis_trigger_alarms": 2,
+        "final_length_error_m": null,
+        "length_target_m": 0.0,
+        "pause_on_alarm": true
+      },
+      "replay_csv_sha256_equal": true
+    }
+  ],
+  "material_markers": {
+    "material_origin_decreased": true,
+    "moving_pixels": 2494,
+    "paused_tracking_frozen": true,
+    "unmarked_changed_pixels": 0
+  },
+  "support_views": {
+    "camera_roundtrip_identical": true,
+    "views": 4
+  },
+  "reference_plant_checks": {
+    "actuator_dynamics": {
+      "force_decay_max_error_n": 1.2720846598313074e-10,
+      "force_no_instantaneous_jump": true,
+      "force_time_constant_s": 0.1,
+      "torque_demand_saturated_throughout": true,
+      "torque_step_error_nm": 5.526793529497809e-07,
+      "torque_time_constant_s": 0.02
+    },
+    "algebra": {
+      "max_balance_m": 1.3869794202037156e-11,
+      "max_inertia_kg_m2": 0.0,
+      "max_mass_kg": 0.0,
+      "max_nip_power_w": 3.552713678800501e-15,
+      "max_radius_m": 5.551115123125783e-17
+    },
+    "trajectory_convergence": {
+      "coarse_dt_s": 0.001,
+      "fine_dt_s": 0.00025,
+      "max_dancer_difference_m": 8.358272783448584e-06,
+      "max_speed_difference_m_s": 0.0003558759481802204,
+      "max_tension_difference_n": 0.0062642188289885326
+    },
+    "pet_trajectory_convergence": {
+      "coarse_dt_s": 0.001,
+      "fine_dt_s": 0.00025,
+      "max_dancer_difference_m": 8.097116252603342e-06,
+      "max_speed_difference_m_s": 0.0003567256819144021,
+      "max_tension_difference_n": 0.006222377515470612
+    },
+    "parameter_corners": {
+      "cases": 32,
+      "explicit_domain_stops": 0,
+      "horizon_per_case_s": 12,
+      "invalid_cases": 0,
+      "max_balance_error_m": 9.167706593871117e-10
+    },
+    "hard_domain_guard": {
+      "active_alarms": 256,
+      "frozen_time_s": 0.0015,
+      "preserved_radius_m": 0.620000000011112,
+      "reset_required_and_successful": true,
+      "status": "PASS"
+    },
+    "kinematics": {
+      "driven_phase_continues_during_braking": true,
+      "driven_phase_equals_nip_travel_over_radius": true,
+      "passive_phases_freeze_without_jump_on_break": true
+    },
+    "material_catalog_checks": [
+      {
+        "density_kg_m3": 950.0,
+        "id": 0,
+        "initial_free_r_rest_m": 7.055995484985345,
+        "initial_free_u_rest_m": 3.6468464291497047,
+        "initial_strain": 0.0016666666666666668,
+        "initial_tension_r_n": 80.00000000000185,
+        "initial_tension_u_n": 80.00000000000185,
+        "key": "elastic-1mm",
+        "max_balance_error_m": 6.366462912410498e-12,
+        "name": "Elastico 1,0 mm",
+        "note": "Profilo elastico di riferimento",
+        "rewind_radius_m": 0.25,
+        "running_tension_r_n": 80.07791691658994,
+        "source": "",
+        "tension_setpoint_n": 80.0,
+        "thickness_m": 0.001,
+        "unwind_radius_m": 0.6,
+        "width_m": 0.8,
+        "young_pa": 60000000.0
+      },
+      {
+        "density_kg_m3": 950.0,
+        "id": 1,
+        "initial_free_r_rest_m": 7.055995484985345,
+        "initial_free_u_rest_m": 3.6468464291497047,
+        "initial_strain": 0.0016666666666666668,
+        "initial_tension_r_n": 80.00000000000185,
+        "initial_tension_u_n": 80.00000000000185,
+        "key": "elastic-0p5mm",
+        "max_balance_error_m": 1.5916157281026244e-11,
+        "name": "Elastico 0,5 mm",
+        "note": "Profilo elastico di riferimento",
+        "rewind_radius_m": 0.25,
+        "running_tension_r_n": 80.0469456200652,
+        "source": "",
+        "tension_setpoint_n": 80.0,
+        "thickness_m": 0.0005,
+        "unwind_radius_m": 0.6,
+        "width_m": 0.8,
+        "young_pa": 120000000.0
+      },
+      {
+        "density_kg_m3": 1390.0,
+        "id": 2,
+        "initial_free_r_rest_m": 7.056235093633979,
+        "initial_free_u_rest_m": 3.6469702693571606,
+        "initial_strain": 0.0016326530612244899,
+        "initial_tension_r_n": 80.00000000000097,
+        "initial_tension_u_n": 80.00000000000097,
+        "key": "PET-25um",
+        "max_balance_error_m": 9.458744898438454e-11,
+        "name": "PET 25 um",
+        "note": "Film poliestere, modulo longitudinale tipico",
+        "rewind_radius_m": 0.25,
+        "running_tension_r_n": 80.01601718414841,
+        "source": "https://www.grafixplastics.com/materials-plastic-film-plastic-sheets/commodity-plastic-film/polyester-mylar-duralar-film/duralar-polyester-film-sheet-products/clear-duralar-polyester-film/",
+        "tension_setpoint_n": 80.0,
+        "thickness_m": 2.5e-05,
+        "unwind_radius_m": 0.6,
+        "width_m": 0.4,
+        "young_pa": 4900000000.0
+      },
+      {
+        "density_kg_m3": 923.0,
+        "id": 3,
+        "initial_free_r_rest_m": 7.040675954558173,
+        "initial_free_u_rest_m": 3.638928627196251,
+        "initial_strain": 0.0038461538461538464,
+        "initial_tension_r_n": 79.99999999999972,
+        "initial_tension_u_n": 79.99999999999972,
+        "key": "LDPE-100um",
+        "max_balance_error_m": 9.458744898438454e-11,
+        "name": "PE-LD 100 um",
+        "note": "Polietilene a bassa densita, valori tipici Lupolen 2420F",
+        "rewind_radius_m": 0.25,
+        "running_tension_r_n": 80.02125748454496,
+        "source": "https://www.lyondellbasell.com/en/polymers/p/Lupolen-2420F/61e46490-ed79-4c71-bd7a-35125886bb3a",
+        "tension_setpoint_n": 80.0,
+        "thickness_m": 0.0001,
+        "unwind_radius_m": 0.6,
+        "width_m": 0.8,
+        "young_pa": 260000000.0
+      },
+      {
+        "density_kg_m3": 900.0,
+        "id": 4,
+        "initial_free_r_rest_m": 7.055590665967274,
+        "initial_free_u_rest_m": 3.646637201012634,
+        "initial_strain": 0.0017241379310344825,
+        "initial_tension_r_n": 79.9999999999976,
+        "initial_tension_u_n": 79.9999999999976,
+        "key": "BOPP-20um",
+        "max_balance_error_m": 2.9103830456733704e-10,
+        "name": "BOPP 20 um",
+        "note": "Polipropilene orientato, modulo film 0-1%, riferimento HP522H",
+        "rewind_radius_m": 0.25,
+        "running_tension_r_n": 80.01602364936177,
+        "source": "https://hongrunplastics.com/public/uploads/images/20250609/LyondellBasell%20PP%20Moplen%20HP522H.pdf",
+        "tension_setpoint_n": 80.0,
+        "thickness_m": 2e-05,
+        "unwind_radius_m": 0.6,
+        "width_m": 0.8,
+        "young_pa": 2900000000.0
+      },
+      {
+        "density_kg_m3": 1135.0,
+        "id": 5,
+        "initial_free_r_rest_m": 7.042603322736262,
+        "initial_free_u_rest_m": 3.639924775191651,
+        "initial_strain": 0.003571428571428571,
+        "initial_tension_r_n": 79.99999999999973,
+        "initial_tension_u_n": 79.99999999999973,
+        "key": "PA6-40um",
+        "max_balance_error_m": 1.8189894035458565e-10,
+        "name": "PA6 40 um condizionato",
+        "note": "Film cast condizionato, Ultramid B36 LN 01; densita media dell'intervallo pubblicato",
+        "rewind_radius_m": 0.25,
+        "running_tension_r_n": 80.01774355271466,
+        "source": "https://chemicals.basf.com/dam/jcr:794caec6-5ccb-4345-8cc5-26f39840adca/BASF_Ultramid_Properties_and_Extrusion_Processing_Guide.pdf",
+        "tension_setpoint_n": 80.0,
+        "thickness_m": 4e-05,
+        "unwind_radius_m": 0.6,
+        "width_m": 0.8,
+        "young_pa": 700000000.0
+      }
+    ]
+  },
+  "instruments": {
+    "gauge_changed_pixels": 401661,
+    "hmi_changed_pixels": 12598,
+    "paused_image_identical": true,
+    "pneumatic_expected_ratio": 0.6674254739287524,
+    "pneumatic_force_ratio": 0.6674254739290258
+  },
+  "display_checks": [
+    {
+      "name": "minimum",
+      "viewport": {
+        "dpi_scale": 1.0,
+        "height": 680,
+        "width": 1050
+      },
+      "controls": {
+        "about": true,
+        "dpi_roundtrip": true,
+        "info_button": true,
+        "mode_selector": true
+      },
+      "about_visible": true
+    },
+    {
+      "name": "hd",
+      "viewport": {
+        "dpi_scale": 1.0,
+        "height": 720,
+        "width": 1280
+      },
+      "controls": {
+        "about": true,
+        "dpi_roundtrip": true,
+        "info_button": true,
+        "mode_selector": true
+      },
+      "about_visible": true
+    },
+    {
+      "name": "scaled-125",
+      "viewport": {
+        "dpi_scale": 1.25,
+        "height": 1061,
+        "width": 1920
+      },
+      "controls": {
+        "about": true,
+        "dpi_roundtrip": true,
+        "info_button": true,
+        "mode_selector": true
+      },
+      "about_visible": true
+    },
+    {
+      "name": "scaled-150",
+      "viewport": {
+        "dpi_scale": 1.5,
+        "height": 1061,
+        "width": 2560
+      },
+      "controls": {
+        "about": true,
+        "dpi_roundtrip": true,
+        "info_button": true,
+        "mode_selector": true
+      },
+      "about_visible": true
+    }
+  ],
+  "wire_contracts": {
+    "telemetry_and_event_frames_checked": 30,
+    "schema_version": 1
+  }
+}

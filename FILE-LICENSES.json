@@ -1,0 +1,1310 @@
+{
+  "schema": "slx.file-licenses.v2",
+  "copyright": "2026 Marco Pezzullo (Silicon LogiX)",
+  "files": {
+    ".clang-format": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    ".gitattributes": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    ".github/workflows/public-audit.yml": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    ".gitignore": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "ASSET_LICENSE": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "CMakeLists.txt": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "FILE-LICENSES.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "FILE-LICENSES.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "LICENSE": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "NOTICE": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "PUBLISHING_STATUS.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "PUBLISHING_STATUS.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "README.md": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "SDK_LICENSE": {
+      "license": "LicenseRef-SLX-ReelSync-SDK-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "SHA256SUMS": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "SHA256SUMS.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "SLX-ReelSync.exe": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "SLX-ReelSync.exe.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "assets/branding/reelsync.png": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "assets/branding/reelsync.png.license": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "assets/branding/siliconlogix-logo-light-transparent.png": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "assets/branding/siliconlogix-logo-light-transparent.png.license": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "assets/config/camera_presets.json": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "assets/config/camera_presets.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "assets/config/kinematic_samples.json": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "assets/config/kinematic_samples.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "assets/config/scene_contract.json": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "assets/config/scene_contract.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "assets/scene/SLX_ReelSync_Runtime.glb": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "assets/scene/SLX_ReelSync_Runtime.glb.license": {
+      "license": "LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "bin/SLX-ReelSync.exe": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "bin/SLX-ReelSync.exe.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "bin/SLX_ReelSync_Core.dll": {
+      "license": "LicenseRef-SLX-ReelSync-SDK-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "bin/SLX_ReelSync_Core.dll.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "bin/slx-reelsync-cli.exe": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "bin/slx-reelsync-cli.exe.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "bin/slx-reelsync-link.exe": {
+      "license": "LicenseRef-SLX-ReelSync-SDK-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "bin/slx-reelsync-link.exe.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "branding/reelsync.ico": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "branding/reelsync.ico.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "branding/reelsync.png": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "branding/reelsync.png.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "branding/reelsync.svg": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/alarms.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/app.cpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/cli.cpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/faults.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/gl_api.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/instrument_panel.cpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/instrument_panel.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/launcher.cpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/platform.cpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/platform.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/protocol.cpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/protocol.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/recipes.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/remote.cpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/remote.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/renderer.cpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/renderer.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/roadmap.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/session.cpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/session.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/ui.cpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/ui.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/visual_frame.hpp": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "desktop/windows.rc.in": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/ALARMS.md": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/CAPABILITIES.md": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/FAULT_LAB.md": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/Guida.html": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/MATERIALS.md": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/MODEL.md": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/ON_REQUEST.md": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/RELEASE_NOTES_1.5.0.md": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/SDK.md": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/TELEMETRY.md": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/VERIFICATION.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/VERIFICATION.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/VIRTUAL_PLANT.md": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/about.png": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/about.png.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/charts.png": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/charts.png.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/faults.png": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/faults.png.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/force-fault.png": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/force-fault.png.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/hmi-live.png": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/hmi-live.png.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/on-request.png": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/on-request.png.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/overview.png": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/images/overview.png.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/material-catalog.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/material-catalog.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/schemas/command-v1.schema.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/schemas/command-v1.schema.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/schemas/events-v1.schema.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/schemas/events-v1.schema.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/schemas/telemetry-v1.schema.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "docs/schemas/telemetry-v1.schema.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "evaluation.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "evaluation.license.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/educational_controller.c": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/educational_controller.h": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/recipes/BOPP-20um.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/recipes/BOPP-20um.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/recipes/LDPE-100um.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/recipes/LDPE-100um.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/recipes/PA6-40um.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/recipes/PA6-40um.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/recipes/PET-25um.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/recipes/PET-25um.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/recipes/elastic-0p5mm.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/recipes/elastic-0p5mm.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/recipes/elastic-1mm.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "examples/recipes/elastic-1mm.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "licenses/COPYING.MinGW-w64-runtime.txt": {
+      "license": "Original license text",
+      "notice": "licenses/COPYING.MinGW-w64-runtime.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/COPYING.winpthreads.txt": {
+      "license": "Original license text",
+      "notice": "licenses/COPYING.winpthreads.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/DejaVu-LICENSE.txt": {
+      "license": "Original license text",
+      "notice": "licenses/DejaVu-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/DejaVu_font_notice.txt": {
+      "license": "Original license text",
+      "notice": "licenses/DejaVu_font_notice.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/Go-LICENSE.txt": {
+      "license": "Original license text",
+      "notice": "licenses/Go-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/ProggyClean-NOTICE.txt": {
+      "license": "Original license text",
+      "notice": "licenses/ProggyClean-NOTICE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/assets-original-NOTICE.txt": {
+      "license": "Original license text",
+      "notice": "licenses/assets-original-NOTICE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/cgltf-LICENSE.txt": {
+      "license": "Original license text",
+      "notice": "licenses/cgltf-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/glfw-LICENSE.txt": {
+      "license": "Original license text",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/gorilla-websocket-LICENSE.txt": {
+      "license": "Original license text",
+      "notice": "licenses/gorilla-websocket-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/imgui-LICENSE.txt": {
+      "license": "Original license text",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/imgui-glyph-ranges-NOTICE.txt": {
+      "license": "Original license text",
+      "notice": "licenses/imgui-glyph-ranges-NOTICE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/implot-LICENSE.txt": {
+      "license": "Original license text",
+      "notice": "licenses/implot-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/json-LICENSE.MIT": {
+      "license": "Original license text",
+      "notice": "licenses/json-LICENSE.MIT",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/llvm-runtime-LICENSE.txt": {
+      "license": "Original license text",
+      "notice": "licenses/llvm-runtime-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "licenses/stb-LICENSE.txt": {
+      "license": "Original license text",
+      "notice": "licenses/stb-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "scripts/dependencies.lock.json": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "scripts/dependencies.lock.json.license": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "scripts/verify_public_tree.py": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "scripts/verify_release.py": {
+      "license": "LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "sdk/bin/SLX_ReelSync_Core.dll": {
+      "license": "LicenseRef-SLX-ReelSync-SDK-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "sdk/bin/SLX_ReelSync_Core.dll.license": {
+      "license": "LicenseRef-SLX-ReelSync-SDK-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "sdk/cmake/SiliconLogiXReelSyncConfig.cmake": {
+      "license": "LicenseRef-SLX-ReelSync-SDK-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "sdk/include/slx/reelsync.h": {
+      "license": "LicenseRef-SLX-ReelSync-SDK-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "sdk/lib/libSLX_ReelSync_Core.dll.a": {
+      "license": "LicenseRef-SLX-ReelSync-SDK-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "sdk/lib/libSLX_ReelSync_Core.dll.a.license": {
+      "license": "LicenseRef-SLX-ReelSync-SDK-Evaluation-1.0",
+      "copyright": "2026 Marco Pezzullo (Silicon LogiX)"
+    },
+    "third_party/cgltf/LICENSE": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/cgltf-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/cgltf/cgltf.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/cgltf-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CMake/GenerateMappings.cmake": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CMake/Info.plist.in": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CMake/cmake_uninstall.cmake.in": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CMake/glfw3.pc.in": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CMake/glfw3Config.cmake.in": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CMake/i686-w64-mingw32-clang.cmake": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CMake/i686-w64-mingw32.cmake": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CMake/modules/FindEpollShim.cmake": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CMake/modules/FindOSMesa.cmake": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CMake/x86_64-w64-mingw32-clang.cmake": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CMake/x86_64-w64-mingw32.cmake": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CMakeLists.txt": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/CONTRIBUTORS.md": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/LICENSE.md": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/README.md": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/deps/mingw/_mingw_dxhelper.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/deps/mingw/dinput.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/deps/mingw/xinput.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/deps/wayland/fractional-scale-v1.xml": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/deps/wayland/idle-inhibit-unstable-v1.xml": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/deps/wayland/pointer-constraints-unstable-v1.xml": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/deps/wayland/relative-pointer-unstable-v1.xml": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/deps/wayland/viewporter.xml": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/deps/wayland/wayland.xml": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/deps/wayland/xdg-activation-v1.xml": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/deps/wayland/xdg-decoration-unstable-v1.xml": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/deps/wayland/xdg-shell.xml": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/include/GLFW/glfw3.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/include/GLFW/glfw3native.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/CMakeLists.txt": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/cocoa_init.m": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/cocoa_joystick.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/cocoa_joystick.m": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/cocoa_monitor.m": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/cocoa_platform.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/cocoa_time.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/cocoa_time.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/cocoa_window.m": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/context.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/egl_context.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/glfw.rc.in": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/glx_context.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/init.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/input.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/internal.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/linux_joystick.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/linux_joystick.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/mappings.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/mappings.h.in": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/monitor.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/nsgl_context.m": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/null_init.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/null_joystick.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/null_joystick.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/null_monitor.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/null_platform.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/null_window.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/osmesa_context.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/platform.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/platform.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/posix_module.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/posix_poll.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/posix_poll.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/posix_thread.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/posix_thread.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/posix_time.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/posix_time.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/vulkan.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/wgl_context.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/win32_init.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/win32_joystick.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/win32_joystick.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/win32_module.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/win32_monitor.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/win32_platform.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/win32_thread.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/win32_thread.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/win32_time.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/win32_time.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/win32_window.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/window.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/wl_init.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/wl_monitor.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/wl_platform.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/wl_window.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/x11_init.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/x11_monitor.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/x11_platform.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/x11_window.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/xkb_unicode.c": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/glfw/src/xkb_unicode.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/LICENSE.txt": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/backends/imgui_impl_glfw.cpp": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/backends/imgui_impl_glfw.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "Zlib",
+      "notice": "licenses/glfw-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/backends/imgui_impl_opengl3.cpp": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/backends/imgui_impl_opengl3.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/backends/imgui_impl_opengl3_loader.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/imconfig.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/imgui.cpp": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/imgui.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/imgui_draw.cpp": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/imgui_internal.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/imgui_tables.cpp": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/imgui_widgets.cpp": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/imstb_rectpack.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/imstb_textedit.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/imgui/imstb_truetype.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/imgui-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/implot/LICENSE": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/implot-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/implot/implot.cpp": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/implot-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/implot/implot.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/implot-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/implot/implot_internal.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/implot-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/implot/implot_items.cpp": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/implot-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/include/nlohmann/json.hpp": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/json-LICENSE.MIT",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/stb/LICENSE": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/stb-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/stb/stb_image.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/stb-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    },
+    "third_party/stb/stb_image_write.h": {
+      "license": "See original file header and preserved upstream notices",
+      "component_license": "MIT",
+      "notice": "licenses/stb-LICENSE.txt",
+      "copyright": "Original upstream notices retained"
+    }
+  }
+}

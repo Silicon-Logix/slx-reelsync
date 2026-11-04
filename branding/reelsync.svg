@@ -1,0 +1,12 @@
+<!-- SLX ReelSync — Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+     SPDX-License-Identifier: LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64">
+  <defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#253c60"/><stop offset="1" stop-color="#111c31"/></linearGradient></defs>
+  <rect x="1" y="1" width="62" height="62" rx="15" fill="url(#b)"/>
+  <path d="M8 44h14c6 0 9-6 13-14s9-11 20-11" fill="none" stroke="#7977ff" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="21" cy="24" r="11" fill="#14243b" stroke="#e6b779" stroke-width="3.5"/>
+  <circle cx="43" cy="40" r="12" fill="#14243b" stroke="#4fd0c3" stroke-width="3.5"/>
+  <path d="M21 17v14m-6-10 12 7m-12 0 12-7M43 32v16m-7-12 14 8m-14 0 14-8" stroke="#e6edf8" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="21" cy="24" r="3.2" fill="#e6b779"/>
+  <circle cx="43" cy="40" r="3.5" fill="#4fd0c3"/>
+</svg>

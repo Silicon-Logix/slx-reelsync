@@ -1,0 +1,15 @@
+{
+  "schema": "slx.reelsync.recipe.v1",
+  "material": {
+    "key": "BOPP-20um",
+    "name": "BOPP 20 um",
+    "note": "Polipropilene orientato, modulo film 0-1%, riferimento HP522H",
+    "source": "https://hongrunplastics.com/public/uploads/images/20250609/LyondellBasell%20PP%20Moplen%20HP522H.pdf"
+  },
+  "configuration": {
+    "width_m": 0.8,
+    "thickness_m": 2e-05,
+    "young_pa": 2900000000.0,
+    "density_kg_m3": 900.0
+  }
+}

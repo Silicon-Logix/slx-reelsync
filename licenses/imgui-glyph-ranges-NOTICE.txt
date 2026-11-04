@@ -1,0 +1,18 @@
+Japanese glyph-range data preserved in Dear ImGui imgui_draw.cpp
+
+Sources attributed by the upstream file:
+- List of Joyo Kanji, Agency for Cultural Affairs, Government of Japan:
+  https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/
+- List of Jinmeiyo Kanji, Ministry of Justice, Government of Japan:
+  http://www.moj.go.jp/MINJI/minji86.html
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Upstream source and transformation information:
+https://github.com/ocornut/imgui/blob/v1.92.4-docking/imgui_draw.cpp
+https://github.com/vaiorabbit/everyday_use_kanji
+
+ReelSync retains the upstream file, its attribution, data and explanatory
+comments unchanged. No endorsement by these agencies is claimed.

@@ -1,0 +1,15 @@
+{
+  "schema": "slx.reelsync.recipe.v1",
+  "material": {
+    "key": "PA6-40um",
+    "name": "PA6 40 um condizionato",
+    "note": "Film cast condizionato, Ultramid B36 LN 01; densita media dell'intervallo pubblicato",
+    "source": "https://chemicals.basf.com/dam/jcr:794caec6-5ccb-4345-8cc5-26f39840adca/BASF_Ultramid_Properties_and_Extrusion_Processing_Guide.pdf"
+  },
+  "configuration": {
+    "width_m": 0.8,
+    "thickness_m": 4e-05,
+    "young_pa": 700000000.0,
+    "density_kg_m3": 1135.0
+  }
+}

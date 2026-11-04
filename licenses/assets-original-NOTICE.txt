@@ -1,0 +1,14 @@
+SLX ReelSync — original demonstration assets
+Prepared for SiliconLogiX, 2026.
+
+The machine, controls and industrial environment are generic visual models.
+No OEM manufacturing data, certified machine design or functional controller
+is supplied. The single in-scene SiliconLogiX mark is supplied by the owner.
+
+Publication and redistribution terms for the original assets and scripts must
+be set by SiliconLogiX before an external release. This package does not
+silently grant an open-source or commercial application licence.
+
+DejaVu font use is covered by the accompanying DejaVu_font_notice.txt.
+Third-party software and tooling retain their respective licences and notices.
+The intended proprietary SLX motion-control core is not part of this asset pack.

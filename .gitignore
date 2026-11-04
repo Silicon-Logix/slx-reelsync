@@ -1,0 +1,22 @@
+# SLX ReelSync — Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+# SPDX-License-Identifier: LicenseRef-SLX-ReelSync-Demo-Evaluation-1.0
+/build*/
+/results/
+/smoke/
+*.user
+*.pdb
+*.obj
+*.ilk
+__pycache__/
+
+/private/
+/workspace/
+/SLX_ReelSync/
+/design/
+/embedded/
+*.blend
+*.blend1
+*.fbx
+*.key
+*.pem
+*.log

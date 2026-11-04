@@ -1,0 +1,306 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "slx.reelsync.telemetry.v1"
+    },
+    "product": {
+      "const": "SLX ReelSync"
+    },
+    "host_version": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^rs-[0-9a-f]{32}$"
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sim_s": {
+      "type": "number",
+      "minimum": 0
+    },
+    "state": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 7
+        },
+        "label": {
+          "type": "string"
+        },
+        "previous": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "model_halted": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "code",
+        "label",
+        "previous"
+      ]
+    },
+    "connection": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "enum": [
+            "local-simulation",
+            "remote-simulation",
+            "machine"
+          ]
+        },
+        "hardware_connected": {
+          "type": "boolean"
+        },
+        "remote_control": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "source",
+        "hardware_connected",
+        "remote_control"
+      ]
+    },
+    "process": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "speed_m_s": {
+          "type": "number"
+        },
+        "speed_setpoint_m_s": {
+          "type": "number"
+        },
+        "tension_u_n": {
+          "type": "number"
+        },
+        "tension_r_n": {
+          "type": "number"
+        },
+        "tension_setpoint_n": {
+          "type": "number"
+        },
+        "unwind_diameter_m": {
+          "type": "number"
+        },
+        "rewind_diameter_m": {
+          "type": "number"
+        },
+        "dancer_position_m": {
+          "type": "number"
+        },
+        "nip_travel_m": {
+          "type": "number"
+        },
+        "pneumatic_force_n": {
+          "type": "number"
+        },
+        "pneumatic_available_fraction": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "unwind_power_w": {
+          "type": "number"
+        },
+        "rewind_power_w": {
+          "type": "number"
+        },
+        "nip_power_w": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "speed_m_s",
+        "speed_setpoint_m_s",
+        "tension_u_n",
+        "tension_r_n",
+        "tension_setpoint_n",
+        "unwind_diameter_m",
+        "rewind_diameter_m",
+        "dancer_position_m",
+        "nip_travel_m",
+        "pneumatic_force_n",
+        "pneumatic_available_fraction",
+        "unwind_power_w",
+        "rewind_power_w",
+        "nip_power_w"
+      ]
+    },
+    "sensors": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "encoder_m_s": {
+          "type": "number"
+        },
+        "tension_n": {
+          "type": "number"
+        },
+        "quality": {
+          "type": "integer",
+          "enum": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "required": [
+        "encoder_m_s",
+        "tension_n",
+        "quality"
+      ]
+    },
+    "alarms": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "active": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "latched": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "fault": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        }
+      },
+      "required": [
+        "active",
+        "latched",
+        "fault"
+      ]
+    },
+    "visual": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema": {
+          "const": "slx.reelsync.visual.v1"
+        },
+        "rollers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "center_m": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "radius_m": {
+                "type": "number",
+                "minimum": 0
+              },
+              "phase_rad": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "id",
+              "center_m",
+              "radius_m",
+              "phase_rad"
+            ]
+          },
+          "minItems": 9,
+          "maxItems": 9
+        },
+        "path_m": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "minItems": 2,
+          "maxItems": 512
+        },
+        "material": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "origin_m": {
+              "type": "number"
+            },
+            "upstream_rest_m": {
+              "type": "number"
+            },
+            "downstream_rest_m": {
+              "type": "number"
+            },
+            "upstream_route_m": {
+              "type": "number"
+            },
+            "downstream_route_m": {
+              "type": "number"
+            },
+            "connected": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "origin_m",
+            "upstream_rest_m",
+            "downstream_rest_m",
+            "upstream_route_m",
+            "downstream_route_m",
+            "connected"
+          ]
+        }
+      },
+      "required": [
+        "schema",
+        "rollers",
+        "path_m",
+        "material"
+      ]
+    }
+  },
+  "required": [
+    "schema",
+    "product",
+    "host_version",
+    "model",
+    "run_id",
+    "sequence",
+    "sim_s",
+    "state",
+    "connection",
+    "process",
+    "sensors",
+    "alarms"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SLX ReelSync telemetry v1"
+}

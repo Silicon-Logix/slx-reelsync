@@ -1,0 +1,10 @@
+{
+  "product": "SLX ReelSync",
+  "version": "1.5.0",
+  "distribution": "proprietary technical evaluation",
+  "asset_redistribution_confirmed": true,
+  "license_terms_finalized": true,
+  "asset_license": "ASSET_LICENSE",
+  "private_sources_included": false,
+  "three_d_authoring_sources_included": false
+}

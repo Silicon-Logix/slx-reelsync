@@ -1,0 +1,1473 @@
+{
+  "schema": "slx.reelsync.scene.v1",
+  "units": "metres",
+  "native_up": "Z",
+  "native_transport": "+X",
+  "shaft_axis": "Y",
+  "gltf_conversion": "(x,y,z)->(x,z,-y)",
+  "source_nodes": [
+    {
+      "name": "SLX_ReelSync_ROOT",
+      "parent": null
+    },
+    {
+      "name": "rs_machine_root",
+      "parent": "SLX_ReelSync_ROOT"
+    },
+    {
+      "name": "rs_process_bed_root",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_drive_module_root",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_process_base",
+      "parent": "rs_process_bed_root"
+    },
+    {
+      "name": "rs_unwinder_root",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_unwinder_base",
+      "parent": "rs_unwinder_root"
+    },
+    {
+      "name": "rs_unwinder_front_support_hinge",
+      "parent": "rs_unwinder_root"
+    },
+    {
+      "name": "rs_unwinder_front_bearing",
+      "parent": "rs_unwinder_front_support_hinge"
+    },
+    {
+      "name": "rs_unwinder_rear_bearing",
+      "parent": "rs_unwinder_root"
+    },
+    {
+      "name": "rs_unwinder_spindle",
+      "parent": "rs_unwinder_root"
+    },
+    {
+      "name": "rs_unwinder_servo",
+      "parent": "rs_unwinder_root"
+    },
+    {
+      "name": "rs_unwinder_servo_power_anchor",
+      "parent": "rs_unwinder_servo"
+    },
+    {
+      "name": "rs_unwinder_servo_encoder_anchor",
+      "parent": "rs_unwinder_servo"
+    },
+    {
+      "name": "rs_unwinder_motor_power_anchor",
+      "parent": "rs_unwinder_servo"
+    },
+    {
+      "name": "rs_unwinder_roll_centre_anchor",
+      "parent": "rs_unwinder_root"
+    },
+    {
+      "name": "rs_unwinder_load_anchor",
+      "parent": "rs_unwinder_root"
+    },
+    {
+      "name": "rs_rewinder_root",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_rewinder_base",
+      "parent": "rs_rewinder_root"
+    },
+    {
+      "name": "rs_rewinder_front_support_hinge",
+      "parent": "rs_rewinder_root"
+    },
+    {
+      "name": "rs_rewinder_front_bearing",
+      "parent": "rs_rewinder_front_support_hinge"
+    },
+    {
+      "name": "rs_rewinder_rear_bearing",
+      "parent": "rs_rewinder_root"
+    },
+    {
+      "name": "rs_rewinder_spindle",
+      "parent": "rs_rewinder_root"
+    },
+    {
+      "name": "rs_rewinder_servo",
+      "parent": "rs_rewinder_root"
+    },
+    {
+      "name": "rs_rewinder_servo_power_anchor",
+      "parent": "rs_rewinder_servo"
+    },
+    {
+      "name": "rs_rewinder_servo_encoder_anchor",
+      "parent": "rs_rewinder_servo"
+    },
+    {
+      "name": "rs_rewinder_motor_power_anchor",
+      "parent": "rs_rewinder_servo"
+    },
+    {
+      "name": "rs_rewinder_roll_centre_anchor",
+      "parent": "rs_rewinder_root"
+    },
+    {
+      "name": "rs_rewinder_load_anchor",
+      "parent": "rs_rewinder_root"
+    },
+    {
+      "name": "rs_entry_roller",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_entry_roller_front_bearing",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_entry_roller_rear_bearing",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_entry_roller_axis_anchor",
+      "parent": "rs_entry_roller"
+    },
+    {
+      "name": "rs_loadcell_roller",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_loadcell_roller_front_bearing",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_loadcell_roller_front_bearing_signal_anchor",
+      "parent": "rs_loadcell_roller_front_bearing"
+    },
+    {
+      "name": "rs_loadcell_roller_rear_bearing",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_loadcell_roller_rear_bearing_signal_anchor",
+      "parent": "rs_loadcell_roller_rear_bearing"
+    },
+    {
+      "name": "rs_loadcell_roller_axis_anchor",
+      "parent": "rs_loadcell_roller"
+    },
+    {
+      "name": "rs_drive_roller",
+      "parent": "rs_drive_module_root"
+    },
+    {
+      "name": "rs_drive_roller_front_bearing",
+      "parent": "rs_drive_module_root"
+    },
+    {
+      "name": "rs_drive_roller_rear_bearing",
+      "parent": "rs_drive_module_root"
+    },
+    {
+      "name": "rs_drive_roller_servo",
+      "parent": "rs_drive_module_root"
+    },
+    {
+      "name": "rs_drive_roller_servo_power_anchor",
+      "parent": "rs_drive_roller_servo"
+    },
+    {
+      "name": "rs_drive_roller_servo_encoder_anchor",
+      "parent": "rs_drive_roller_servo"
+    },
+    {
+      "name": "rs_drive_roller_axis_anchor",
+      "parent": "rs_drive_roller"
+    },
+    {
+      "name": "rs_dancer_guide_in",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_dancer_guide_in_front_bearing",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_dancer_guide_in_rear_bearing",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_dancer_guide_in_axis_anchor",
+      "parent": "rs_dancer_guide_in"
+    },
+    {
+      "name": "rs_dancer_guide_out",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_dancer_guide_out_front_bearing",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_dancer_guide_out_rear_bearing",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_dancer_guide_out_axis_anchor",
+      "parent": "rs_dancer_guide_out"
+    },
+    {
+      "name": "rs_exit_roller",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_exit_roller_front_bearing",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_exit_roller_rear_bearing",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_exit_roller_axis_anchor",
+      "parent": "rs_exit_roller"
+    },
+    {
+      "name": "rs_dancer_module_root",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_dancer_carriage",
+      "parent": "rs_dancer_module_root"
+    },
+    {
+      "name": "rs_dancer_position_signal_anchor",
+      "parent": "rs_dancer_carriage"
+    },
+    {
+      "name": "rs_dancer_air_interface_anchor",
+      "parent": "rs_dancer_module_root"
+    },
+    {
+      "name": "rs_dancer_roller",
+      "parent": "rs_dancer_carriage"
+    },
+    {
+      "name": "rs_dancer_roller_front_bearing",
+      "parent": "rs_dancer_carriage"
+    },
+    {
+      "name": "rs_dancer_roller_rear_bearing",
+      "parent": "rs_dancer_carriage"
+    },
+    {
+      "name": "rs_dancer_roller_axis_anchor",
+      "parent": "rs_dancer_roller"
+    },
+    {
+      "name": "rs_nip_module_root",
+      "parent": "rs_drive_module_root"
+    },
+    {
+      "name": "rs_nip_arm",
+      "parent": "rs_nip_module_root"
+    },
+    {
+      "name": "rs_nip_bearing",
+      "parent": "rs_nip_arm"
+    },
+    {
+      "name": "rs_nip_bearing.001",
+      "parent": "rs_nip_arm"
+    },
+    {
+      "name": "rs_nip_roller",
+      "parent": "rs_nip_arm"
+    },
+    {
+      "name": "rs_nip_open_state_anchor",
+      "parent": "rs_nip_arm"
+    },
+    {
+      "name": "rs_drive_motor_power_anchor",
+      "parent": "rs_drive_roller_servo"
+    },
+    {
+      "name": "rs_machine_power_handoff_anchor",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_machine_air_handoff_anchor",
+      "parent": "rs_machine_root"
+    },
+    {
+      "name": "rs_environment_root",
+      "parent": "SLX_ReelSync_ROOT"
+    },
+    {
+      "name": "rs_hall_floor_root",
+      "parent": "rs_environment_root"
+    },
+    {
+      "name": "rs_hall_structure_root",
+      "parent": "rs_environment_root"
+    },
+    {
+      "name": "rs_hall_front_root",
+      "parent": "rs_environment_root"
+    },
+    {
+      "name": "rs_hall_rear_root",
+      "parent": "rs_environment_root"
+    },
+    {
+      "name": "rs_hall_west_root",
+      "parent": "rs_environment_root"
+    },
+    {
+      "name": "rs_hall_east_root",
+      "parent": "rs_environment_root"
+    },
+    {
+      "name": "rs_hall_roof_root",
+      "parent": "rs_environment_root"
+    },
+    {
+      "name": "rs_hall_services_root",
+      "parent": "rs_environment_root"
+    },
+    {
+      "name": "rs_spares_and_workbench_root",
+      "parent": "rs_environment_root"
+    },
+    {
+      "name": "rs_portal_00",
+      "parent": "rs_hall_front_root"
+    },
+    {
+      "name": "rs_portal_01",
+      "parent": "rs_hall_structure_root"
+    },
+    {
+      "name": "rs_portal_02",
+      "parent": "rs_hall_structure_root"
+    },
+    {
+      "name": "rs_portal_03",
+      "parent": "rs_hall_structure_root"
+    },
+    {
+      "name": "rs_portal_04",
+      "parent": "rs_hall_structure_root"
+    },
+    {
+      "name": "rs_service_door_slide",
+      "parent": "rs_hall_rear_root"
+    },
+    {
+      "name": "rs_service_door_closed_anchor",
+      "parent": "rs_hall_rear_root"
+    },
+    {
+      "name": "rs_hall_personnel_door_hinge",
+      "parent": "rs_hall_west_root"
+    },
+    {
+      "name": "rs_hall_LED_fixture",
+      "parent": "rs_hall_services_root"
+    },
+    {
+      "name": "rs_hall_LED_fixture.001",
+      "parent": "rs_hall_services_root"
+    },
+    {
+      "name": "rs_hall_LED_fixture.002",
+      "parent": "rs_hall_services_root"
+    },
+    {
+      "name": "rs_hall_LED_fixture.003",
+      "parent": "rs_hall_services_root"
+    },
+    {
+      "name": "rs_hall_LED_fixture.004",
+      "parent": "rs_hall_services_root"
+    },
+    {
+      "name": "rs_hall_LED_fixture.005",
+      "parent": "rs_hall_services_root"
+    },
+    {
+      "name": "rs_hall_lighting_feed_anchor",
+      "parent": "rs_hall_services_root"
+    },
+    {
+      "name": "rs_spares_rack_0",
+      "parent": "rs_spares_and_workbench_root"
+    },
+    {
+      "name": "rs_spares_rack_1",
+      "parent": "rs_spares_and_workbench_root"
+    },
+    {
+      "name": "rs_floor_spare_pallet_0",
+      "parent": "rs_spares_and_workbench_root"
+    },
+    {
+      "name": "rs_floor_spare_pallet_1",
+      "parent": "rs_spares_and_workbench_root"
+    },
+    {
+      "name": "rs_service_workbench_root",
+      "parent": "rs_spares_and_workbench_root"
+    },
+    {
+      "name": "rs_spare_core_cart_root",
+      "parent": "rs_spares_and_workbench_root"
+    },
+    {
+      "name": "rs_hall_line_origin_anchor",
+      "parent": "rs_environment_root"
+    },
+    {
+      "name": "rs_operator_aisle_anchor",
+      "parent": "rs_hall_floor_root"
+    },
+    {
+      "name": "rs_service_aisle_anchor",
+      "parent": "rs_hall_floor_root"
+    },
+    {
+      "name": "rs_hall_lighting_control_anchor",
+      "parent": "rs_hall_services_root"
+    },
+    {
+      "name": "rs_controls_root",
+      "parent": "SLX_ReelSync_ROOT"
+    },
+    {
+      "name": "rs_main_cabinet_root",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_cabinet_door_hinge",
+      "parent": "rs_main_cabinet_root"
+    },
+    {
+      "name": "rs_branch_breaker_00_lever",
+      "parent": "rs_main_cabinet_root"
+    },
+    {
+      "name": "rs_branch_breaker_01_lever",
+      "parent": "rs_main_cabinet_root"
+    },
+    {
+      "name": "rs_branch_breaker_02_lever",
+      "parent": "rs_main_cabinet_root"
+    },
+    {
+      "name": "rs_branch_breaker_03_lever",
+      "parent": "rs_main_cabinet_root"
+    },
+    {
+      "name": "rs_branch_breaker_04_lever",
+      "parent": "rs_main_cabinet_root"
+    },
+    {
+      "name": "rs_cabinet_field_gland_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_signal_tower_root",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_hmi_root",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_hmi_data_entry_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_hmi_screen_centre_anchor",
+      "parent": "rs_hmi_root"
+    },
+    {
+      "name": "rs_operator_button_pod",
+      "parent": "rs_hmi_root"
+    },
+    {
+      "name": "rs_operator_estop_plunger",
+      "parent": "rs_operator_button_pod"
+    },
+    {
+      "name": "rs_hmi_floor_conduit_start_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_hmi_floor_conduit_end_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_unwinder_diameter_sensor_root",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_unwinder_diameter_measurement_anchor",
+      "parent": "rs_unwinder_diameter_sensor_root"
+    },
+    {
+      "name": "rs_unwinder_diameter_cable_anchor",
+      "parent": "rs_unwinder_diameter_sensor_root"
+    },
+    {
+      "name": "rs_unwinder_diameter_sensor_cable_start_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_unwinder_diameter_sensor_cable_end_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_rewinder_diameter_sensor_root",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_rewinder_diameter_measurement_anchor",
+      "parent": "rs_rewinder_diameter_sensor_root"
+    },
+    {
+      "name": "rs_rewinder_diameter_cable_anchor",
+      "parent": "rs_rewinder_diameter_sensor_root"
+    },
+    {
+      "name": "rs_rewinder_diameter_sensor_cable_start_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_rewinder_diameter_sensor_cable_end_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_edge_sensor_root",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_web_edge_measurement_anchor",
+      "parent": "rs_edge_sensor_root"
+    },
+    {
+      "name": "rs_edge_sensor_cable_anchor",
+      "parent": "rs_edge_sensor_root"
+    },
+    {
+      "name": "rs_edge_sensor_cable_start_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_edge_sensor_cable_end_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_floor_trunking_root",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_cabinet_field_feed_start_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_cabinet_field_feed_end_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_unwinder_motor_power_cable_start_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_unwinder_motor_power_cable_end_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_drive_motor_power_cable_start_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_drive_motor_power_cable_end_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_rewinder_motor_power_cable_start_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_rewinder_motor_power_cable_end_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_guard_interlock_root",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_guard_interlock_cable_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_guard_interlock_cable_start_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_guard_interlock_cable_end_anchor",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_completion_details_root",
+      "parent": "rs_controls_root"
+    },
+    {
+      "name": "rs_unwinder_feedback_trunk_port",
+      "parent": "rs_completion_details_root"
+    },
+    {
+      "name": "rs_unwinder_encoder_feedback_cable_start_anchor",
+      "parent": "rs_completion_details_root"
+    },
+    {
+      "name": "rs_unwinder_encoder_feedback_cable_end_anchor",
+      "parent": "rs_completion_details_root"
+    },
+    {
+      "name": "rs_drive_feedback_trunk_port",
+      "parent": "rs_completion_details_root"
+    },
+    {
+      "name": "rs_drive_encoder_feedback_cable_start_anchor",
+      "parent": "rs_completion_details_root"
+    },
+    {
+      "name": "rs_drive_encoder_feedback_cable_end_anchor",
+      "parent": "rs_completion_details_root"
+    },
+    {
+      "name": "rs_rewinder_feedback_trunk_port",
+      "parent": "rs_completion_details_root"
+    },
+    {
+      "name": "rs_rewinder_encoder_feedback_cable_start_anchor",
+      "parent": "rs_completion_details_root"
+    },
+    {
+      "name": "rs_rewinder_encoder_feedback_cable_end_anchor",
+      "parent": "rs_completion_details_root"
+    },
+    {
+      "name": "rs_air_valve_coil_capped_anchor",
+      "parent": "rs_pneumatic_service_root"
+    },
+    {
+      "name": "rs_filter_regulator_inlet_anchor",
+      "parent": "rs_pneumatic_service_root"
+    },
+    {
+      "name": "rs_filter_regulator_outlet_anchor",
+      "parent": "rs_pneumatic_service_root"
+    },
+    {
+      "name": "rs_air_valve_inlet_anchor",
+      "parent": "rs_pneumatic_service_root"
+    },
+    {
+      "name": "rs_air_valve_outlet_anchor",
+      "parent": "rs_pneumatic_service_root"
+    },
+    {
+      "name": "rs_regulator_to_valve_hose_start_anchor",
+      "parent": "rs_pneumatic_service_root"
+    },
+    {
+      "name": "rs_regulator_to_valve_hose_end_anchor",
+      "parent": "rs_pneumatic_service_root"
+    },
+    {
+      "name": "rs_plant_air_external_handoff_anchor",
+      "parent": "rs_pneumatic_service_root"
+    },
+    {
+      "name": "rs_plant_air_inlet_hose_start_anchor",
+      "parent": "rs_pneumatic_service_root"
+    },
+    {
+      "name": "rs_plant_air_inlet_hose_end_anchor",
+      "parent": "rs_pneumatic_service_root"
+    },
+    {
+      "name": "rs_pneumatic_service_root",
+      "parent": "rs_completion_details_root"
+    },
+    {
+      "name": "rs_dancer_regulated_air_hose_start_anchor",
+      "parent": "rs_completion_details_root"
+    },
+    {
+      "name": "rs_dancer_regulated_air_hose_end_anchor",
+      "parent": "rs_completion_details_root"
+    },
+    {
+      "name": "rs_front_guards_root",
+      "parent": "SLX_ReelSync_ROOT"
+    },
+    {
+      "name": "rs_unwind_guard_hinge",
+      "parent": "rs_front_guards_root"
+    },
+    {
+      "name": "rs_unwind_guard_lock_anchor",
+      "parent": "rs_unwind_guard_hinge"
+    },
+    {
+      "name": "rs_rewind_guard_hinge",
+      "parent": "rs_front_guards_root"
+    },
+    {
+      "name": "rs_rewind_guard_lock_anchor",
+      "parent": "rs_rewind_guard_hinge"
+    },
+    {
+      "name": "rs_fixed_front_panel_0",
+      "parent": "rs_front_guards_root"
+    },
+    {
+      "name": "rs_fixed_front_panel_1",
+      "parent": "rs_front_guards_root"
+    },
+    {
+      "name": "rs_fixed_front_panel_2",
+      "parent": "rs_front_guards_root"
+    },
+    {
+      "name": "rs_end_guard_-1",
+      "parent": "rs_front_guards_root"
+    },
+    {
+      "name": "rs_end_guard_1",
+      "parent": "rs_front_guards_root"
+    }
+  ],
+  "required_nodes": [
+    "SLX_ReelSync_ROOT",
+    "rs_machine_root",
+    "rs_process_bed_root",
+    "rs_drive_module_root",
+    "rs_process_base",
+    "rs_unwinder_root",
+    "rs_unwinder_base",
+    "rs_unwinder_front_support_hinge",
+    "rs_unwinder_front_bearing",
+    "rs_unwinder_rear_bearing",
+    "rs_unwinder_spindle",
+    "rs_unwinder_servo",
+    "rs_unwinder_servo_power_anchor",
+    "rs_unwinder_servo_encoder_anchor",
+    "rs_unwinder_motor_power_anchor",
+    "rs_unwinder_roll_centre_anchor",
+    "rs_unwinder_load_anchor",
+    "rs_rewinder_root",
+    "rs_rewinder_base",
+    "rs_rewinder_front_support_hinge",
+    "rs_rewinder_front_bearing",
+    "rs_rewinder_rear_bearing",
+    "rs_rewinder_spindle",
+    "rs_rewinder_servo",
+    "rs_rewinder_servo_power_anchor",
+    "rs_rewinder_servo_encoder_anchor",
+    "rs_rewinder_motor_power_anchor",
+    "rs_rewinder_roll_centre_anchor",
+    "rs_rewinder_load_anchor",
+    "rs_entry_roller",
+    "rs_entry_roller_front_bearing",
+    "rs_entry_roller_rear_bearing",
+    "rs_entry_roller_axis_anchor",
+    "rs_loadcell_roller",
+    "rs_loadcell_roller_front_bearing",
+    "rs_loadcell_roller_front_bearing_signal_anchor",
+    "rs_loadcell_roller_rear_bearing",
+    "rs_loadcell_roller_rear_bearing_signal_anchor",
+    "rs_loadcell_roller_axis_anchor",
+    "rs_drive_roller",
+    "rs_drive_roller_front_bearing",
+    "rs_drive_roller_rear_bearing",
+    "rs_drive_roller_servo",
+    "rs_drive_roller_servo_power_anchor",
+    "rs_drive_roller_servo_encoder_anchor",
+    "rs_drive_roller_axis_anchor",
+    "rs_dancer_guide_in",
+    "rs_dancer_guide_in_front_bearing",
+    "rs_dancer_guide_in_rear_bearing",
+    "rs_dancer_guide_in_axis_anchor",
+    "rs_dancer_guide_out",
+    "rs_dancer_guide_out_front_bearing",
+    "rs_dancer_guide_out_rear_bearing",
+    "rs_dancer_guide_out_axis_anchor",
+    "rs_exit_roller",
+    "rs_exit_roller_front_bearing",
+    "rs_exit_roller_rear_bearing",
+    "rs_exit_roller_axis_anchor",
+    "rs_dancer_module_root",
+    "rs_dancer_carriage",
+    "rs_dancer_position_signal_anchor",
+    "rs_dancer_air_interface_anchor",
+    "rs_dancer_roller",
+    "rs_dancer_roller_front_bearing",
+    "rs_dancer_roller_rear_bearing",
+    "rs_dancer_roller_axis_anchor",
+    "rs_nip_module_root",
+    "rs_nip_arm",
+    "rs_nip_bearing",
+    "rs_nip_bearing.001",
+    "rs_nip_roller",
+    "rs_nip_open_state_anchor",
+    "rs_drive_motor_power_anchor",
+    "rs_machine_power_handoff_anchor",
+    "rs_machine_air_handoff_anchor",
+    "rs_environment_root",
+    "rs_hall_floor_root",
+    "rs_hall_structure_root",
+    "rs_hall_front_root",
+    "rs_hall_rear_root",
+    "rs_hall_west_root",
+    "rs_hall_east_root",
+    "rs_hall_roof_root",
+    "rs_hall_services_root",
+    "rs_spares_and_workbench_root",
+    "rs_portal_00",
+    "rs_portal_01",
+    "rs_portal_02",
+    "rs_portal_03",
+    "rs_portal_04",
+    "rs_service_door_slide",
+    "rs_service_door_closed_anchor",
+    "rs_hall_personnel_door_hinge",
+    "rs_hall_LED_fixture",
+    "rs_hall_LED_fixture.001",
+    "rs_hall_LED_fixture.002",
+    "rs_hall_LED_fixture.003",
+    "rs_hall_LED_fixture.004",
+    "rs_hall_LED_fixture.005",
+    "rs_hall_lighting_feed_anchor",
+    "rs_spares_rack_0",
+    "rs_spares_rack_1",
+    "rs_floor_spare_pallet_0",
+    "rs_floor_spare_pallet_1",
+    "rs_service_workbench_root",
+    "rs_spare_core_cart_root",
+    "rs_hall_line_origin_anchor",
+    "rs_operator_aisle_anchor",
+    "rs_service_aisle_anchor",
+    "rs_hall_lighting_control_anchor",
+    "rs_controls_root",
+    "rs_main_cabinet_root",
+    "rs_cabinet_door_hinge",
+    "rs_branch_breaker_00_lever",
+    "rs_branch_breaker_01_lever",
+    "rs_branch_breaker_02_lever",
+    "rs_branch_breaker_03_lever",
+    "rs_branch_breaker_04_lever",
+    "rs_cabinet_field_gland_anchor",
+    "rs_signal_tower_root",
+    "rs_hmi_root",
+    "rs_hmi_data_entry_anchor",
+    "rs_hmi_screen_centre_anchor",
+    "rs_operator_button_pod",
+    "rs_operator_estop_plunger",
+    "rs_hmi_floor_conduit_start_anchor",
+    "rs_hmi_floor_conduit_end_anchor",
+    "rs_unwinder_diameter_sensor_root",
+    "rs_unwinder_diameter_measurement_anchor",
+    "rs_unwinder_diameter_cable_anchor",
+    "rs_unwinder_diameter_sensor_cable_start_anchor",
+    "rs_unwinder_diameter_sensor_cable_end_anchor",
+    "rs_rewinder_diameter_sensor_root",
+    "rs_rewinder_diameter_measurement_anchor",
+    "rs_rewinder_diameter_cable_anchor",
+    "rs_rewinder_diameter_sensor_cable_start_anchor",
+    "rs_rewinder_diameter_sensor_cable_end_anchor",
+    "rs_edge_sensor_root",
+    "rs_web_edge_measurement_anchor",
+    "rs_edge_sensor_cable_anchor",
+    "rs_edge_sensor_cable_start_anchor",
+    "rs_edge_sensor_cable_end_anchor",
+    "rs_floor_trunking_root",
+    "rs_cabinet_field_feed_start_anchor",
+    "rs_cabinet_field_feed_end_anchor",
+    "rs_unwinder_motor_power_cable_start_anchor",
+    "rs_unwinder_motor_power_cable_end_anchor",
+    "rs_drive_motor_power_cable_start_anchor",
+    "rs_drive_motor_power_cable_end_anchor",
+    "rs_rewinder_motor_power_cable_start_anchor",
+    "rs_rewinder_motor_power_cable_end_anchor",
+    "rs_guard_interlock_root",
+    "rs_guard_interlock_cable_anchor",
+    "rs_guard_interlock_cable_start_anchor",
+    "rs_guard_interlock_cable_end_anchor",
+    "rs_completion_details_root",
+    "rs_unwinder_feedback_trunk_port",
+    "rs_unwinder_encoder_feedback_cable_start_anchor",
+    "rs_unwinder_encoder_feedback_cable_end_anchor",
+    "rs_drive_feedback_trunk_port",
+    "rs_drive_encoder_feedback_cable_start_anchor",
+    "rs_drive_encoder_feedback_cable_end_anchor",
+    "rs_rewinder_feedback_trunk_port",
+    "rs_rewinder_encoder_feedback_cable_start_anchor",
+    "rs_rewinder_encoder_feedback_cable_end_anchor",
+    "rs_air_valve_coil_capped_anchor",
+    "rs_filter_regulator_inlet_anchor",
+    "rs_filter_regulator_outlet_anchor",
+    "rs_air_valve_inlet_anchor",
+    "rs_air_valve_outlet_anchor",
+    "rs_regulator_to_valve_hose_start_anchor",
+    "rs_regulator_to_valve_hose_end_anchor",
+    "rs_plant_air_external_handoff_anchor",
+    "rs_plant_air_inlet_hose_start_anchor",
+    "rs_plant_air_inlet_hose_end_anchor",
+    "rs_pneumatic_service_root",
+    "rs_dancer_regulated_air_hose_start_anchor",
+    "rs_dancer_regulated_air_hose_end_anchor",
+    "rs_front_guards_root",
+    "rs_unwind_guard_hinge",
+    "rs_unwind_guard_lock_anchor",
+    "rs_rewind_guard_hinge",
+    "rs_rewind_guard_lock_anchor",
+    "rs_fixed_front_panel_0",
+    "rs_fixed_front_panel_1",
+    "rs_fixed_front_panel_2",
+    "rs_end_guard_-1",
+    "rs_end_guard_1",
+    "RS_WebFilm",
+    "RS_UnwinderFilmRoll",
+    "RS_RewinderFilmRoll"
+  ],
+  "runtime_requirements": {
+    "required_nodes": [
+      "SLX_ReelSync_ROOT",
+      "rs_machine_root",
+      "rs_process_bed_root",
+      "rs_drive_module_root",
+      "rs_process_base",
+      "rs_unwinder_root",
+      "rs_unwinder_base",
+      "rs_unwinder_front_support_hinge",
+      "rs_unwinder_front_bearing",
+      "rs_unwinder_rear_bearing",
+      "rs_unwinder_spindle",
+      "rs_unwinder_servo",
+      "rs_unwinder_servo_power_anchor",
+      "rs_unwinder_servo_encoder_anchor",
+      "rs_unwinder_motor_power_anchor",
+      "rs_unwinder_roll_centre_anchor",
+      "rs_unwinder_load_anchor",
+      "rs_rewinder_root",
+      "rs_rewinder_base",
+      "rs_rewinder_front_support_hinge",
+      "rs_rewinder_front_bearing",
+      "rs_rewinder_rear_bearing",
+      "rs_rewinder_spindle",
+      "rs_rewinder_servo",
+      "rs_rewinder_servo_power_anchor",
+      "rs_rewinder_servo_encoder_anchor",
+      "rs_rewinder_motor_power_anchor",
+      "rs_rewinder_roll_centre_anchor",
+      "rs_rewinder_load_anchor",
+      "rs_entry_roller",
+      "rs_entry_roller_front_bearing",
+      "rs_entry_roller_rear_bearing",
+      "rs_entry_roller_axis_anchor",
+      "rs_loadcell_roller",
+      "rs_loadcell_roller_front_bearing",
+      "rs_loadcell_roller_front_bearing_signal_anchor",
+      "rs_loadcell_roller_rear_bearing",
+      "rs_loadcell_roller_rear_bearing_signal_anchor",
+      "rs_loadcell_roller_axis_anchor",
+      "rs_drive_roller",
+      "rs_drive_roller_front_bearing",
+      "rs_drive_roller_rear_bearing",
+      "rs_drive_roller_servo",
+      "rs_drive_roller_servo_power_anchor",
+      "rs_drive_roller_servo_encoder_anchor",
+      "rs_drive_roller_axis_anchor",
+      "rs_dancer_guide_in",
+      "rs_dancer_guide_in_front_bearing",
+      "rs_dancer_guide_in_rear_bearing",
+      "rs_dancer_guide_in_axis_anchor",
+      "rs_dancer_guide_out",
+      "rs_dancer_guide_out_front_bearing",
+      "rs_dancer_guide_out_rear_bearing",
+      "rs_dancer_guide_out_axis_anchor",
+      "rs_exit_roller",
+      "rs_exit_roller_front_bearing",
+      "rs_exit_roller_rear_bearing",
+      "rs_exit_roller_axis_anchor",
+      "rs_dancer_module_root",
+      "rs_dancer_carriage",
+      "rs_dancer_position_signal_anchor",
+      "rs_dancer_air_interface_anchor",
+      "rs_dancer_roller",
+      "rs_dancer_roller_front_bearing",
+      "rs_dancer_roller_rear_bearing",
+      "rs_dancer_roller_axis_anchor",
+      "rs_nip_module_root",
+      "rs_nip_arm",
+      "rs_nip_bearing",
+      "rs_nip_bearing.001",
+      "rs_nip_roller",
+      "rs_nip_open_state_anchor",
+      "rs_drive_motor_power_anchor",
+      "rs_machine_power_handoff_anchor",
+      "rs_machine_air_handoff_anchor",
+      "rs_environment_root",
+      "rs_hall_floor_root",
+      "rs_hall_structure_root",
+      "rs_hall_front_root",
+      "rs_hall_rear_root",
+      "rs_hall_west_root",
+      "rs_hall_east_root",
+      "rs_hall_roof_root",
+      "rs_hall_services_root",
+      "rs_spares_and_workbench_root",
+      "rs_portal_00",
+      "rs_portal_01",
+      "rs_portal_02",
+      "rs_portal_03",
+      "rs_portal_04",
+      "rs_service_door_slide",
+      "rs_service_door_closed_anchor",
+      "rs_hall_personnel_door_hinge",
+      "rs_hall_LED_fixture",
+      "rs_hall_LED_fixture.001",
+      "rs_hall_LED_fixture.002",
+      "rs_hall_LED_fixture.003",
+      "rs_hall_LED_fixture.004",
+      "rs_hall_LED_fixture.005",
+      "rs_hall_lighting_feed_anchor",
+      "rs_spares_rack_0",
+      "rs_spares_rack_1",
+      "rs_floor_spare_pallet_0",
+      "rs_floor_spare_pallet_1",
+      "rs_service_workbench_root",
+      "rs_spare_core_cart_root",
+      "rs_hall_line_origin_anchor",
+      "rs_operator_aisle_anchor",
+      "rs_service_aisle_anchor",
+      "rs_hall_lighting_control_anchor",
+      "rs_controls_root",
+      "rs_main_cabinet_root",
+      "rs_cabinet_door_hinge",
+      "rs_branch_breaker_00_lever",
+      "rs_branch_breaker_01_lever",
+      "rs_branch_breaker_02_lever",
+      "rs_branch_breaker_03_lever",
+      "rs_branch_breaker_04_lever",
+      "rs_cabinet_field_gland_anchor",
+      "rs_signal_tower_root",
+      "rs_hmi_root",
+      "rs_hmi_data_entry_anchor",
+      "rs_hmi_screen_centre_anchor",
+      "rs_operator_button_pod",
+      "rs_operator_estop_plunger",
+      "rs_hmi_floor_conduit_start_anchor",
+      "rs_hmi_floor_conduit_end_anchor",
+      "rs_unwinder_diameter_sensor_root",
+      "rs_unwinder_diameter_measurement_anchor",
+      "rs_unwinder_diameter_cable_anchor",
+      "rs_unwinder_diameter_sensor_cable_start_anchor",
+      "rs_unwinder_diameter_sensor_cable_end_anchor",
+      "rs_rewinder_diameter_sensor_root",
+      "rs_rewinder_diameter_measurement_anchor",
+      "rs_rewinder_diameter_cable_anchor",
+      "rs_rewinder_diameter_sensor_cable_start_anchor",
+      "rs_rewinder_diameter_sensor_cable_end_anchor",
+      "rs_edge_sensor_root",
+      "rs_web_edge_measurement_anchor",
+      "rs_edge_sensor_cable_anchor",
+      "rs_edge_sensor_cable_start_anchor",
+      "rs_edge_sensor_cable_end_anchor",
+      "rs_floor_trunking_root",
+      "rs_cabinet_field_feed_start_anchor",
+      "rs_cabinet_field_feed_end_anchor",
+      "rs_unwinder_motor_power_cable_start_anchor",
+      "rs_unwinder_motor_power_cable_end_anchor",
+      "rs_drive_motor_power_cable_start_anchor",
+      "rs_drive_motor_power_cable_end_anchor",
+      "rs_rewinder_motor_power_cable_start_anchor",
+      "rs_rewinder_motor_power_cable_end_anchor",
+      "rs_guard_interlock_root",
+      "rs_guard_interlock_cable_anchor",
+      "rs_guard_interlock_cable_start_anchor",
+      "rs_guard_interlock_cable_end_anchor",
+      "rs_completion_details_root",
+      "rs_unwinder_feedback_trunk_port",
+      "rs_unwinder_encoder_feedback_cable_start_anchor",
+      "rs_unwinder_encoder_feedback_cable_end_anchor",
+      "rs_drive_feedback_trunk_port",
+      "rs_drive_encoder_feedback_cable_start_anchor",
+      "rs_drive_encoder_feedback_cable_end_anchor",
+      "rs_rewinder_feedback_trunk_port",
+      "rs_rewinder_encoder_feedback_cable_start_anchor",
+      "rs_rewinder_encoder_feedback_cable_end_anchor",
+      "rs_air_valve_coil_capped_anchor",
+      "rs_filter_regulator_inlet_anchor",
+      "rs_filter_regulator_outlet_anchor",
+      "rs_air_valve_inlet_anchor",
+      "rs_air_valve_outlet_anchor",
+      "rs_regulator_to_valve_hose_start_anchor",
+      "rs_regulator_to_valve_hose_end_anchor",
+      "rs_plant_air_external_handoff_anchor",
+      "rs_plant_air_inlet_hose_start_anchor",
+      "rs_plant_air_inlet_hose_end_anchor",
+      "rs_pneumatic_service_root",
+      "rs_dancer_regulated_air_hose_start_anchor",
+      "rs_dancer_regulated_air_hose_end_anchor",
+      "rs_front_guards_root",
+      "rs_unwind_guard_hinge",
+      "rs_unwind_guard_lock_anchor",
+      "rs_rewind_guard_hinge",
+      "rs_rewind_guard_lock_anchor",
+      "rs_fixed_front_panel_0",
+      "rs_fixed_front_panel_1",
+      "rs_fixed_front_panel_2",
+      "rs_end_guard_-1",
+      "rs_end_guard_1",
+      "RS_WebFilm",
+      "RS_UnwinderFilmRoll",
+      "RS_RewinderFilmRoll"
+    ],
+    "geometry_policy": "Hall front and roof meshes omitted from default runtime; their transform nodes remain and their shell is supplied separately."
+  },
+  "animation": {
+    "name": "ReelSync_Process_60s",
+    "duration_seconds": 60,
+    "fps": 24,
+    "loop": false,
+    "scope": "Kinematic presentation,184mfeed,0..52srunning/52..60sstopped;maintenanceguardsopenafter53s"
+  },
+  "branding": {
+    "maximum_scene_logos": 1,
+    "location": "Fixed central front-guard nameplate",
+    "logo_node": "ReelSync_Front_SiliconLogiX_logo",
+    "logo_width_m": 0.65,
+    "original_asset": "assets/branding/siliconlogix-logo-light-transparent.png"
+  },
+  "endpoint_checks": [
+    {
+      "a": "rs_hmi_floor_conduit_start_anchor",
+      "b": "rs_hmi_data_entry_anchor",
+      "curve": "rs_hmi_floor_conduit",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_hmi_floor_conduit_end_anchor",
+      "b": "rs_hmi_floor_conduit_end_anchor",
+      "curve": "rs_hmi_floor_conduit",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_unwinder_diameter_sensor_cable_start_anchor",
+      "b": "rs_unwinder_diameter_cable_anchor",
+      "curve": "rs_unwinder_diameter_sensor_cable",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_unwinder_diameter_sensor_cable_end_anchor",
+      "b": "rs_unwinder_diameter_sensor_cable_end_anchor",
+      "curve": "rs_unwinder_diameter_sensor_cable",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_rewinder_diameter_sensor_cable_start_anchor",
+      "b": "rs_rewinder_diameter_cable_anchor",
+      "curve": "rs_rewinder_diameter_sensor_cable",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_rewinder_diameter_sensor_cable_end_anchor",
+      "b": "rs_rewinder_diameter_sensor_cable_end_anchor",
+      "curve": "rs_rewinder_diameter_sensor_cable",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_edge_sensor_cable_start_anchor",
+      "b": "rs_edge_sensor_cable_anchor",
+      "curve": "rs_edge_sensor_cable",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_edge_sensor_cable_end_anchor",
+      "b": "rs_edge_sensor_cable_end_anchor",
+      "curve": "rs_edge_sensor_cable",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_cabinet_field_feed_start_anchor",
+      "b": "rs_cabinet_field_gland_anchor",
+      "curve": "rs_cabinet_field_feed",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_cabinet_field_feed_end_anchor",
+      "b": "rs_cabinet_field_feed_end_anchor",
+      "curve": "rs_cabinet_field_feed",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_unwinder_motor_power_cable_start_anchor",
+      "b": "rs_unwinder_motor_power_cable_start_anchor",
+      "curve": "rs_unwinder_motor_power_cable",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_unwinder_motor_power_cable_end_anchor",
+      "b": "rs_unwinder_motor_power_anchor",
+      "curve": "rs_unwinder_motor_power_cable",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_drive_motor_power_cable_start_anchor",
+      "b": "rs_drive_motor_power_cable_start_anchor",
+      "curve": "rs_drive_motor_power_cable",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_drive_motor_power_cable_end_anchor",
+      "b": "rs_drive_motor_power_anchor",
+      "curve": "rs_drive_motor_power_cable",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_rewinder_motor_power_cable_start_anchor",
+      "b": "rs_rewinder_motor_power_cable_start_anchor",
+      "curve": "rs_rewinder_motor_power_cable",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_rewinder_motor_power_cable_end_anchor",
+      "b": "rs_rewinder_motor_power_anchor",
+      "curve": "rs_rewinder_motor_power_cable",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_guard_interlock_cable_start_anchor",
+      "b": "rs_guard_interlock_cable_anchor",
+      "curve": "rs_guard_interlock_cable",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_guard_interlock_cable_end_anchor",
+      "b": "rs_guard_interlock_cable_end_anchor",
+      "curve": "rs_guard_interlock_cable",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_unwinder_encoder_feedback_cable_start_anchor",
+      "b": "rs_unwinder_servo_encoder_anchor",
+      "curve": "rs_unwinder_encoder_feedback_cable",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_unwinder_encoder_feedback_cable_end_anchor",
+      "b": "rs_unwinder_feedback_trunk_port",
+      "curve": "rs_unwinder_encoder_feedback_cable",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_drive_encoder_feedback_cable_start_anchor",
+      "b": "rs_drive_roller_servo_encoder_anchor",
+      "curve": "rs_drive_encoder_feedback_cable",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_drive_encoder_feedback_cable_end_anchor",
+      "b": "rs_drive_feedback_trunk_port",
+      "curve": "rs_drive_encoder_feedback_cable",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_rewinder_encoder_feedback_cable_start_anchor",
+      "b": "rs_rewinder_servo_encoder_anchor",
+      "curve": "rs_rewinder_encoder_feedback_cable",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_rewinder_encoder_feedback_cable_end_anchor",
+      "b": "rs_rewinder_feedback_trunk_port",
+      "curve": "rs_rewinder_encoder_feedback_cable",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_regulator_to_valve_hose_start_anchor",
+      "b": "rs_filter_regulator_outlet_anchor",
+      "curve": "rs_regulator_to_valve_hose",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_regulator_to_valve_hose_end_anchor",
+      "b": "rs_air_valve_inlet_anchor",
+      "curve": "rs_regulator_to_valve_hose",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_plant_air_inlet_hose_start_anchor",
+      "b": "rs_plant_air_external_handoff_anchor",
+      "curve": "rs_plant_air_inlet_hose",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_plant_air_inlet_hose_end_anchor",
+      "b": "rs_filter_regulator_inlet_anchor",
+      "curve": "rs_plant_air_inlet_hose",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_dancer_regulated_air_hose_start_anchor",
+      "b": "rs_air_valve_outlet_anchor",
+      "curve": "rs_dancer_regulated_air_hose",
+      "endpoint_index": 0,
+      "tolerance_m": 0.001
+    },
+    {
+      "a": "rs_dancer_regulated_air_hose_end_anchor",
+      "b": "rs_dancer_air_interface_anchor",
+      "curve": "rs_dancer_regulated_air_hose",
+      "endpoint_index": -1,
+      "tolerance_m": 0.001
+    }
+  ],
+  "web": {
+    "mesh_node": "RS_WebFilm",
+    "bake_frame_step": 12,
+    "state_source": "rs_web_geometry.presentation_state",
+    "root_mapping": {
+      "unwinder": "rs_unwinder_spindle",
+      "entry_idler": "rs_entry_roller",
+      "loadcell_roller": "rs_loadcell_roller",
+      "drive_roller": "rs_drive_roller",
+      "dancer_guide_in": "rs_dancer_guide_in",
+      "dancer_roller": "rs_dancer_roller",
+      "dancer_guide_out": "rs_dancer_guide_out",
+      "exit_idler": "rs_exit_roller",
+      "rewinder": "rs_rewinder_spindle"
+    },
+    "contact_surfaces": [
+      {
+        "id": "unwinder",
+        "center_node": "rs_unwinder_spindle",
+        "surface_node": "RS_UnwinderFilmRoll"
+      },
+      {
+        "id": "entry_idler",
+        "center_node": "rs_entry_roller",
+        "surface_node": "rs_entry_roller_barrel"
+      },
+      {
+        "id": "loadcell_roller",
+        "center_node": "rs_loadcell_roller",
+        "surface_node": "rs_loadcell_roller_barrel"
+      },
+      {
+        "id": "drive_roller",
+        "center_node": "rs_drive_roller",
+        "surface_node": "rs_drive_roller_barrel"
+      },
+      {
+        "id": "dancer_guide_in",
+        "center_node": "rs_dancer_guide_in",
+        "surface_node": "rs_dancer_guide_in_barrel"
+      },
+      {
+        "id": "dancer_roller",
+        "center_node": "rs_dancer_roller",
+        "surface_node": "rs_dancer_roller_barrel"
+      },
+      {
+        "id": "dancer_guide_out",
+        "center_node": "rs_dancer_guide_out",
+        "surface_node": "rs_dancer_guide_out_barrel"
+      },
+      {
+        "id": "exit_idler",
+        "center_node": "rs_exit_roller",
+        "surface_node": "rs_exit_roller_barrel"
+      },
+      {
+        "id": "rewinder",
+        "center_node": "rs_rewinder_spindle",
+        "surface_node": "RS_RewinderFilmRoll"
+      }
+    ],
+    "visual_clearance_m": 0.0004,
+    "morph_basis_targets": 6
+  },
+  "roundtrip_nodes": [
+    "SLX_ReelSync_ROOT",
+    "rs_unwinder_spindle",
+    "rs_entry_roller",
+    "rs_loadcell_roller",
+    "rs_drive_roller",
+    "rs_dancer_guide_in",
+    "rs_dancer_roller",
+    "rs_dancer_guide_out",
+    "rs_exit_roller",
+    "rs_rewinder_spindle",
+    "rs_dancer_carriage",
+    "rs_nip_roller",
+    "rs_nip_arm",
+    "rs_unwinder_front_support_hinge",
+    "rs_rewinder_front_support_hinge",
+    "rs_cabinet_door_hinge",
+    "rs_unwind_guard_hinge",
+    "rs_rewind_guard_hinge"
+  ],
+  "roundtrip_mesh_nodes": [
+    "RS_WebFilm",
+    "RS_UnwinderFilmRoll",
+    "RS_RewinderFilmRoll"
+  ],
+  "limits": [
+    "Visual/kinematic reference, not manufacturingCAD or certified machine design.",
+    "Film thickness is material-length metadata; mesh is a zero-thickness middle surface.",
+    "No global collision or machine-safety certification.",
+    "No closed-source motion core or controller is shipped by the asset pack."
+  ]
+}

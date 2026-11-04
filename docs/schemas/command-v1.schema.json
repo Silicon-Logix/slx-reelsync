@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "slx.reelsync.command.v1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]{0,19}$"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^rs-[0-9a-f]{32}$"
+    },
+    "command": {
+      "enum": [
+        "start",
+        "stop",
+        "pause",
+        "resume",
+        "reset",
+        "set_speed",
+        "set_tension",
+        "enter_maintenance",
+        "exit_maintenance",
+        "inject_fault",
+        "single_step",
+        "remove_fault",
+        "acknowledge"
+      ]
+    },
+    "expires_at_sim_s": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 3600
+    },
+    "value": {
+      "type": "number"
+    },
+    "fault": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9
+    }
+  },
+  "required": [
+    "schema",
+    "id",
+    "run_id",
+    "command",
+    "expires_at_sim_s"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SLX ReelSync command v1"
+}

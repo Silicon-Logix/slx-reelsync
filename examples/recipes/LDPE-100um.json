@@ -1,0 +1,15 @@
+{
+  "schema": "slx.reelsync.recipe.v1",
+  "material": {
+    "key": "LDPE-100um",
+    "name": "PE-LD 100 um",
+    "note": "Polietilene a bassa densita, valori tipici Lupolen 2420F",
+    "source": "https://www.lyondellbasell.com/en/polymers/p/Lupolen-2420F/61e46490-ed79-4c71-bd7a-35125886bb3a"
+  },
+  "configuration": {
+    "width_m": 0.8,
+    "thickness_m": 0.0001,
+    "young_pa": 260000000.0,
+    "density_kg_m3": 923.0
+  }
+}

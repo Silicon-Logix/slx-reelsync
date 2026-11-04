@@ -1,0 +1,42 @@
+SLX REELSYNC ORIGINAL ASSETS EVALUATION TERMS 1.0
+SPDX-License-Identifier: LicenseRef-SLX-ReelSync-Assets-Evaluation-1.0
+Copyright (c) 2026 Marco Pezzullo (Silicon LogiX). All rights reserved.
+
+These terms cover the original runtime GLB scene, original textures, branding
+images and scene configuration files supplied for SLX ReelSync evaluation.
+The scene is a generic procedural demonstration created with Blender for this
+project. It contains no certified machine design or OEM manufacturing data.
+The Blender application and third-party fonts remain under their own licenses.
+
+Individuals, businesses and public or private organizations may load and display
+these assets with SLX ReelSync for personal study and internal technical
+evaluation, including evaluation of a prospective SiliconLogiX project. Keep
+the original copyright, product and origin notices with the distribution.
+
+No permission is granted to sell or sublicense the original SLX assets, extract
+them for use in other products or services, redistribute them or modified
+versions outside the permissions below, or rebrand the SLX product without
+prior written permission from the rights holder. No trademark permission is
+granted beyond identifying and displaying this evaluation product and its origin.
+
+For files published by the rights holder in a public GitHub repository, these
+restrictions do not override the rights granted under GitHub's applicable
+Terms of Service to host, view and fork that repository through the service.
+They do not grant additional commercial exploitation rights outside that scope.
+
+Third-party font software, glyphs and other independently licensed portions
+retain their original rights. No SLX restriction limits those rights. See
+THIRD_PARTY_NOTICES.md and the notices in licenses/, including the complete
+DejaVu license. The original asset-delivery notice is preserved for attribution;
+this document sets the distribution terms for the original SLX assets in this
+release. It does not change third-party terms.
+
+Only the runtime scene is distributed. Blender authoring files and generators
+are excluded. The runtime GLB necessarily contains the geometry displayed by
+the application; this license does not claim that geometry cannot be extracted.
+
+The assets are supplied AS IS without warranty to the extent permitted by law.
+They are illustrative, not manufacturing CAD, engineering certification or a
+machine-safety assessment. Applicable mandatory rights remain unaffected.
+
+Edition 1.0, applicable to the assets supplied with SLX ReelSync 1.5.0.

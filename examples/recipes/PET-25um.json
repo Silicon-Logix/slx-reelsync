@@ -1,0 +1,15 @@
+{
+  "schema": "slx.reelsync.recipe.v1",
+  "material": {
+    "key": "PET-25um",
+    "name": "PET 25 um",
+    "note": "Film poliestere, modulo longitudinale tipico",
+    "source": "https://www.grafixplastics.com/materials-plastic-film-plastic-sheets/commodity-plastic-film/polyester-mylar-duralar-film/duralar-polyester-film-sheet-products/clear-duralar-polyester-film/"
+  },
+  "configuration": {
+    "width_m": 0.4,
+    "thickness_m": 2.5e-05,
+    "young_pa": 4900000000.0,
+    "density_kg_m3": 1390.0
+  }
+}

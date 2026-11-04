@@ -1,0 +1,68 @@
+[
+  {
+    "density_kg_m3": 950.0,
+    "id": 0,
+    "key": "elastic-1mm",
+    "name": "Elastico 1,0 mm",
+    "note": "Profilo elastico di riferimento",
+    "source": "",
+    "thickness_m": 0.001,
+    "width_m": 0.8,
+    "young_pa": 60000000.0
+  },
+  {
+    "density_kg_m3": 950.0,
+    "id": 1,
+    "key": "elastic-0p5mm",
+    "name": "Elastico 0,5 mm",
+    "note": "Profilo elastico di riferimento",
+    "source": "",
+    "thickness_m": 0.0005,
+    "width_m": 0.8,
+    "young_pa": 120000000.0
+  },
+  {
+    "density_kg_m3": 1390.0,
+    "id": 2,
+    "key": "PET-25um",
+    "name": "PET 25 um",
+    "note": "Film poliestere, modulo longitudinale tipico",
+    "source": "https://www.grafixplastics.com/materials-plastic-film-plastic-sheets/commodity-plastic-film/polyester-mylar-duralar-film/duralar-polyester-film-sheet-products/clear-duralar-polyester-film/",
+    "thickness_m": 2.5e-05,
+    "width_m": 0.4,
+    "young_pa": 4900000000.0
+  },
+  {
+    "density_kg_m3": 923.0,
+    "id": 3,
+    "key": "LDPE-100um",
+    "name": "PE-LD 100 um",
+    "note": "Polietilene a bassa densita, valori tipici Lupolen 2420F",
+    "source": "https://www.lyondellbasell.com/en/polymers/p/Lupolen-2420F/61e46490-ed79-4c71-bd7a-35125886bb3a",
+    "thickness_m": 0.0001,
+    "width_m": 0.8,
+    "young_pa": 260000000.0
+  },
+  {
+    "density_kg_m3": 900.0,
+    "id": 4,
+    "key": "BOPP-20um",
+    "name": "BOPP 20 um",
+    "note": "Polipropilene orientato, modulo film 0-1%, riferimento HP522H",
+    "source": "https://hongrunplastics.com/public/uploads/images/20250609/LyondellBasell%20PP%20Moplen%20HP522H.pdf",
+    "thickness_m": 2e-05,
+    "width_m": 0.8,
+    "young_pa": 2900000000.0
+  },
+  {
+    "density_kg_m3": 1135.0,
+    "id": 5,
+    "key": "PA6-40um",
+    "name": "PA6 40 um condizionato",
+    "note": "Film cast condizionato, Ultramid B36 LN 01; densita media dell'intervallo pubblicato",
+    "source": "https://chemicals.basf.com/dam/jcr:794caec6-5ccb-4345-8cc5-26f39840adca/BASF_Ultramid_Properties_and_Extrusion_Processing_Guide.pdf",
+    "thickness_m": 4e-05,
+    "width_m": 0.8,
+    "young_pa": 700000000.0
+  }
+]

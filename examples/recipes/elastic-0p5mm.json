@@ -1,0 +1,15 @@
+{
+  "schema": "slx.reelsync.recipe.v1",
+  "material": {
+    "key": "elastic-0p5mm",
+    "name": "Elastico 0,5 mm",
+    "note": "Profilo elastico di riferimento",
+    "source": ""
+  },
+  "configuration": {
+    "width_m": 0.8,
+    "thickness_m": 0.0005,
+    "young_pa": 120000000.0,
+    "density_kg_m3": 950.0
+  }
+}

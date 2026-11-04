@@ -1,0 +1,87 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "slx.reelsync.events.v1"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^rs-[0-9a-f]{32}$"
+    },
+    "after_sequence": {
+      "type": "string",
+      "pattern": "^[0-9]+$"
+    },
+    "first_sequence": {
+      "type": "string",
+      "pattern": "^[0-9]+$"
+    },
+    "last_sequence": {
+      "type": "string",
+      "pattern": "^[0-9]+$"
+    },
+    "resync_required": {
+      "type": "boolean"
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "sequence": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "command_id": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "sim_s": {
+            "type": "number",
+            "minimum": 0
+          },
+          "type": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "result": {
+            "type": "integer"
+          },
+          "argument": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "value": {
+            "type": "number"
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "sequence",
+          "command_id",
+          "sim_s",
+          "type",
+          "result",
+          "argument",
+          "value",
+          "message"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "run_id",
+    "after_sequence",
+    "first_sequence",
+    "last_sequence",
+    "resync_required",
+    "events"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SLX ReelSync events v1"
+}
